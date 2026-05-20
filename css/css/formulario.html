@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Titulo de site</title>
+    <meta charset="utf-8" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            width: 96%;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        form fieldset {
+            padding: 20px 40px;
+            border: 3px solid rgb(134, 78, 78);
+        }
+
+        form legend {
+            font-size: 17px;
+            color: rgb(134, 78, 78);
+        }
+
+        form input[type=text] {
+            font-family: tahoma;
+            margin-top: 30px;
+            width: 80%;
+            padding: 10px 15px;
+            border: 3px solid rgb(134, 78, 78);
+            border-radius: 10PX;
+            cursor: pointer;
+        }
+
+        form select {
+            font-family: tahoma;
+            margin-top: 30px;
+            width: calc(80% + 35px);
+            padding: 10px 15px;
+            display: inline-block;
+            border: 3px solid rgb(134, 78, 78);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        form h2 {
+            margin-top: 20px;
+        }
+
+        .input {
+            font-family: tahoma;
+            margin-top: 10px;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .input span {
+            font-family: tahoma;
+            margin-left: 13px;
+            font-size: 18px;
+            color: rgb(134, 78, 78);
+        }
+
+        form input[type=submit] {
+            font-family: tahoma;
+            margin-top: 30px;
+            width: 140px;
+            height: 40px;
+            border-radius: 10px;
+            border: 0;
+            cursor: pointer;
+            color: black;
+            border: 2px solid rgb(134, 78, 78);
+            background-color: rgba(134, 78, 78, 0.186);
+        }
+
+        form textarea {
+            font-family: tahoma;
+            width: 80%;
+            height: 100px;
+            padding: 10px 15px;
+            margin-top: 20px;
+            border-radius:10px ;
+            border: 2px solid rgb(134, 78, 78);
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Meu formulario</legend>
+            <div><input type="text" name="nome" placeholder="Digite o seu nome" /></div>
+            <div><input type="text" name="e-mail" placeholder="Digite o seu e-mail" /></div>
+            <div>
+                <select name="lista">
+                    <option disabled selected>Qual sua idade?</option>
+                    <option value="20+">20+</option>
+                    <option value="25+">25+</option>
+                    <option value="40+">40+</option>
+                </select>
+            </div>
+            <h2>Qual seu Estado?</h2>
+            <div class="input">
+                <div>
+                    <input type="radio" name="Estados" value="São Paulo" /><span>São Paulo</span>
+                </div>
+                <div>
+                    <input type="radio" name="Estados" value="Rio de Janeiro" /><span>Rio de Janeiro</span>
+                </div>
+                <div>
+                    <input type="radio" name="Estados" value="Minas Gerais" /><span>Minas Gerais</span>
+                </div>
+            </div>
+
+            <h2>Qual seu nivel de ensino?</h2>
+            <div class="input">
+
+                <div>
+                    <input type="radio" name="ensino" value="Fundamental" /><span>Fundamental</span>
+                </div>
+                <div>
+                    <input type="radio" name="ensino" value="Médio" /><span>Médio</span>
+                </div>
+                <div>
+                    <input type="radio" name="ensino" value="Superior" /><span>Superior</span>
+                </div>
+            </div>
+            <div>
+                <textarea name="observação" placeholder="Possui alguma observação?"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="ação" value="Enviar!" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

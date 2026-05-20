@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estilizando estados dos elementos</title>
+    <style>
+/* Exemplo de Estilo */
+.dropdown-content {
+  display: none; /* Escondido por padrão */
+  position: absolute;
+}
+.dropdown:hover .dropdown-content {
+  display:grid; /* Aparece no hover */
+}
+a{
+    text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+<!-- Exemplo de Estrutura -->
+<div class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+    <a href="#">Casa</a>
+    <a href="#">Carro</a>
+    <a href="#">Cidade</a>
+    <a href="#">Estados</a>
+  </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.menu {
+list-style: none;
+display: flex;
+gap: 20px;
+padding: 0;
+}
+
+.menu li {
+padding: 10px 20px;
+background-color: #d6b53e;
+color: rgb(171, 18, 148);
+cursor: pointer;
+}
+
+.menu li:hover {
+background-color: #0056b3;
+}

@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.css {
+    background-color: rgb(123, 192, 230);
+    margin-top: 20px;
+    color: white;
+    border: 2px solid black;
+}

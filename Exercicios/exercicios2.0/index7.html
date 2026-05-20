@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Criando um formulário completo e estilizado</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        form {
+            width: 400px;
+            height: 500px;
+            margin-top: 10px;
+            border: 3px solid rgb(197, 140, 134);
+            text-align: center;
+            margin-left: 40%;
+            border-radius: 10px;
+        }
+
+        div {
+            margin-top: 5px;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+
+        textarea:focus {
+            outline: 2px solid rgb(83, 145, 48);
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <legend>Ficha de Dados</legend>
+        <div> <input type="text" placeholder="Nome" /></div>
+        <div> <input type="email" placeholder="e-mail" /></div>
+        <div>
+            <legend>Assunto</legend>
+            <select>
+                <option disabled selected>Escolha um opção a baixo </option>
+                <option>Pedido</option>
+                <option>Requisição</option>
+                <option>Cancelamento</option>
+            </select>
+            <legend>Descreva agora sobre o assunto escolhido</legend>
+            <div><textarea></textarea></div>
+            <div><button>Enviar</button></div>
+        </div>
+    </form>
+</body>
+
+</html>

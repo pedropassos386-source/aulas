@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+.artigo {
+    width: 100%;
+    height: auto;
+    background-color: rgb(177, 204, 131);
+    text-align: center;
+}
+
+.artigo h1 {
+    color: rgb(127, 43, 158);
+    font-size: 40px;
+    font-family: tahoma;
+    font-style: italic;
+    /*font-weight: ;*/
+    /*font-variant: small-caps;*/
+}
+
+.artigo P {
+    font-size: 17px;
+    color: rgb(41, 75, 118);
+    font-family: tahoma;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 25px;
+    margin: 15px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}

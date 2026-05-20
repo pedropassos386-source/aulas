@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>Estilizando elementos com atributos</title>
+    <style>
+       :required{
+        color: yellow;
+       }
+       :disabled{
+        opacity:0;
+       }
+       select{
+        border: 1px solid blue;
+       }
+    </style>
+</head>
+
+<body>
+    <form>
+        <legend>Formulario Simples</legend>
+        <textarea required></textarea>
+        <button disabled>Enviar</button>
+        <select id="data">
+            <option value="1" data-type="aopa">aopa</option>
+            <option value="2" data-type="ola">ola</option>
+        </select>
+    </form>
+</body>
+
+</html>
