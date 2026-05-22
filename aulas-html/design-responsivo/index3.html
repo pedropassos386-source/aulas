@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0, maximum-scale=1.0">
+    <title>Entendendo propriedade Z-INDEX</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .slide{
+          width: 97%;
+          margin: 0 auto;
+          max-width: 700px;
+          height: 500px;
+          border: 1px solid black;
+          position: relative;
+        }
+        .img-slide{
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+        }
+        .um{
+          background-color: green;
+          z-index: 3;
+        }
+        .dois{
+          z-index: 2;
+          left: 40px;
+          background-color: red;
+        }
+        .treis{
+          left: 80px;
+          z-index: 1;
+          background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+<div class="slide">
+  <div class="img-slide um"></div>
+  <div class="img-slide dois"></div>
+  <div class="img-slide treis"></div>
+</div>
+</body>
+
+</html>
