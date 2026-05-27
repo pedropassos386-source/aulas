@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.clear{clear: both;}
+
+header{
+    background: rgb(3, 14, 95);
+    padding: 8px 0;
+}
+.logo{
+    float: left;
+    color: white;
+}
+.logo h2{
+    font-size: 26px;
+}
+form.form-login{
+    float: right;
+}
+.form-login .form-element{
+    display: inline-block;
+    margin-top: 5px;
+}
+.form-element input[type=submit]{
+    cursor: pointer;
+    border: 0;
+}

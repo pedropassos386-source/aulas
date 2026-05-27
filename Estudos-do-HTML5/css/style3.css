@@ -1,19 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+.header {
     width: 100%;
-    height: 500px;   
+    height: 40vh;
+    /* max-height: 700px; */
     overflow: hidden;
     position: relative;
 }
 
-header video{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
+.header video{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
 }
