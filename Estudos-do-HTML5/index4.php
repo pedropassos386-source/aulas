@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style4.css">
 </head>
 
+
 <body>
     <header>
         <div class="center">
@@ -106,12 +107,12 @@
                         <div class="radio">
                             <input type="radio" name="sexo" value="Feminino">
                             <h2>Feminino</h2>
-                            
+
                         </div>
                         <div class="clear"></div>
                     </div><!--w100-->
 
-                    <div class="w100">
+                    <div class="w100" id="meuForm">
                         <input class="botão" type="submit" name="acao" value="Cadastrar!">
                     </div><!--w100-->
                     <div class="clear"></div>
@@ -120,11 +121,13 @@
             <div class="clear"></div>
         </div><!--center-->
     </section><!--Main-->
-   <footer>
-    <p>Todos os direitos reservados a Vought Internacional</p>
-    <p>Vought Tower 177 6th Ave,New York,10013,USA</p>
-    <p>Vought 2026</p>
-   </footer>
+    <footer>
+        <p>Todos os direitos reservados a Vought Internacional</p>
+        <p>Vought Tower 177 6th Ave,New York,10013,USA</p>
+        <p>Vought 2026</p>
+    </footer>
+
+    <script src="./Java-script/script4.js"></script>
 </body>
 
 </html>
