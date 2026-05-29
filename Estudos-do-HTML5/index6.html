@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Key frames</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Pedro Passos">
+        <link rel="stylesheet" href="css/style.css">
+
+        <style>
+            div.box{
+                width: 300px;
+                height: 300px;
+                position: relative;
+                background-color: blueviolet;
+                animation-name: animacao1;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                
+            }
+            /* div.box:hover{
+                animation-name: animacao1;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            } */
+
+            @keyframes animacao1{
+                0%{
+                    rotate: 0deg;
+                    left: 0;
+                    background-color:blue ;
+                }
+                10%{
+                    rotate: 22.5deg;
+                    left: 50px;
+                    background-color:green ;
+                }
+                20%{
+                    rotate: 45deg;
+                    left: 100px;
+                    background-color: red ;
+                }
+                30%{
+                    rotate: 67.5deg;
+                    left: 150px;
+                    background-color:purple ;
+                }
+                40%{
+                    rotate: 90deg;
+                    left: 200px;
+                    background-color: orange;
+                }
+                50%{
+                    rotate: 112.5deg;
+                    left: 250px;
+                    background-color: yellow;
+                }
+                60%{
+                    rotate: 135deg;
+                    left: 300px;
+                    background-color:pink ;
+                }
+                70%{
+                    rotate: 157.5deg;
+                    left: 350px;
+                    background-color:brown ;
+                }
+                80%{
+                    rotate: 180deg;
+                    left: 400px;
+                    background-color:aqua ;
+                }
+                90%{
+                    rotate: 90deg;
+                    left: 200px;
+                    background-color: lawngreen;
+                }
+                100%{
+                    rotate: 0deg;
+                    left: 0px;
+                    background-color:fuchsia ;
+                }
+             
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+
+        </div>
+    </body>
+</html>
