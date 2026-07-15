@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="Br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Criando menu vertical com submenu</title>
+        <link
+            href="./font/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"
+            rel="stylesheet" />
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            html,body{
+                height: 100%;
+            }
+
+            .side-menu{
+                width: 200px;
+                height: 100%;
+                background-color: rgb(107, 83, 129);
+            }
+
+            .menu-item{
+                position: relative;
+            }
+
+            .menu-item a{
+                display: block;
+                border-bottom: 1px solid black;
+                color: white;
+                text-decoration: none;
+                padding: 10px 15px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="side-menu">
+            <div class="menu-item">
+                <a href="#" style="text-align: center;">Home</a>
+                <div class="sub-menu">
+                    <a href="#">Pagina Inicial</a>
+                    <a href="#">Pagina de Login</a>
+                    <a href="#">Desconectar</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <a href="#" style="text-align: center;">Sobre</a>
+                <div class="sub-menu">
+                    <a href="#">Criação</a>
+                    <a href="#">Lideres</a>
+                    <a href="#">Sedes</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <a href="#" style="text-align: center;">Contato</a>
+                <div class="sub-menu">
+                    <a href="#">Redes Sociais</a>
+                    <a href="#">E-mail</a>
+                    <a href="#">Telefones</a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
